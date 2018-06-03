@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #232323;
+  height: 150px;
+  padding: 10px;
+  color: white;
+  border-bottom: solid turquoise 2px;
+}
+
+.App-title {
+  font-size: 3em;
+  padding-top: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: #232323;
+}
+
+ul {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.input {
+  padding-top: 50px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: turquoise;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
