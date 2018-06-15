@@ -9,22 +9,11 @@
   padding: 10px;
   color: white;
   border-bottom: solid turquoise 2px;
-}
-
-.App-title {
-  font-size: 3em;
+  font-size: 2em;
   padding-top: 20px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
 
 body {
   background-color: #232323;
@@ -48,4 +37,44 @@ button {
   color: turquoise;
   font-size: 1.5rem;
   padding-left: 20px;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 3em;
+  text-transform: capitalize;
+  float: left;
+  
+
+}
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 2em;
+  text-transform: capitalize;
+
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 60px;
+  float: right;
+
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+}
+
+img {
+  border-radius: 50%;
 }
