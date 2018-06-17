@@ -3,7 +3,7 @@ import { FETCH_USER } from './types'
 
 /**
  * Fetches response from API when a user is authenticated
- * Action creator dispatches action with the data received from res
+ * Action creator dispatches action with the data received from res as payload
  */
 export const fetchUser = () => 
     async dispatch => {
