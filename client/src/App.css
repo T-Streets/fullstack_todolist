@@ -1,80 +1,30 @@
-.App {
-  text-align: center;
-}
-
-
-.App-header {
-  background-color: #232323;
-  height: 150px;
-  padding: 10px;
-  color: white;
-  border-bottom: solid turquoise 2px;
-  font-size: 2em;
-  padding-top: 20px;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
 body {
-  background-color: #232323;
+  text-align: center;
+  background: url('./images/blue.jpeg')
 }
 
-ul {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-  font-size: 2em;
-  text-transform: capitalize;
+.nav-container {
+  background: #333;
 }
 
-.input {
-  padding-top: 50px;
-}
-
-button {
-  background: transparent;
-  border: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: turquoise;
-  font-size: 1.5rem;
-  padding-left: 20px;
-}
-
-h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-  font-size: 3em;
-  text-transform: capitalize;
-  float: left;
-  
-
-}
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-  font-size: 2em;
-  text-transform: capitalize;
-
-}
-
-p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-  font-size: 2em;
-  text-transform: capitalize;
-}
-
-ul {
+.nav ul {
   list-style-type: none;
-  padding-right: 60px;
-  float: right;
-
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
-li {
-  display: inline;
-  margin-left: 50px;
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
 }
 
-img {
-  border-radius: 50%;
+.nav a:hover {
+  background-color: #555;
 }

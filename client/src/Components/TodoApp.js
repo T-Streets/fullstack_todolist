@@ -38,7 +38,7 @@ export default class TodoApp extends Component {
 
     render() {
         return (
-            <div>
+            <div className='todoList'>
                 <form onSubmit={this.onSubmit} className='input'>
                     <input value={this.state.todo} onChange={this.addTodo} />
                     <button>Add</button>

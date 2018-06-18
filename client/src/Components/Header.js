@@ -15,15 +15,17 @@ class Header extends Component {
     }
     render() {
         return (
-            <div>
-                <h1>
-                    <Link to={this.props.auth ? '/todolist' : '/'}>
-                    write it down. get it done.
-                    </Link>   
-                 </h1>
-                <ul>
-                    {this.renderContent()}
-                </ul>
+            <div className='nav-container'>
+                <div className='nav'>
+                        <ul>
+                            <li>
+                                <Link to={this.props.auth ? '/todolist' : '/'}>write it down. get it done</Link>   
+                            </li>
+                            <li>
+                                {this.renderContent()}
+                            </li>
+                        </ul>
+                </div>
             </div>
         )
     }
