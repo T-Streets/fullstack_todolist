@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     renderContent() {
@@ -15,7 +16,11 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <h1>write it down. get it done.</h1>
+                <h1>
+                    <Link to={this.props.auth ? '/todolist' : '/'}>
+                    write it down. get it done.
+                    </Link>   
+                 </h1>
                 <ul>
                     {this.renderContent()}
                 </ul>
