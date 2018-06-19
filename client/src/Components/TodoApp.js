@@ -41,7 +41,7 @@ export default class TodoApp extends Component {
             <div className='todoList'>
                 <form onSubmit={this.onSubmit} className='input'>
                     <input value={this.state.todo} onChange={this.addTodo} />
-                    <button>Add</button>
+                    <button className='a-button'>Add</button>
                 </form>
                 {this.state.list.map((item, index) => {
                     return <Task item={item} index={index} id={index} onClick={this.deleteTodo} />
