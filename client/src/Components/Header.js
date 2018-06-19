@@ -18,7 +18,7 @@ class Header extends Component {
             <div className='nav-container'>
                 <div className='nav'>
                         <ul>
-                            <li>
+                            <li className='title'>
                                 <Link to={this.props.auth ? '/todolist' : '/'}>write it down. get it done</Link>   
                             </li>
                             <li>

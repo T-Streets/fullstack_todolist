@@ -1,10 +1,25 @@
 body {
+  background: url(images/typeWriter.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
   text-align: center;
-  background: url('./images/blue.jpeg')
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
 }
 
+
 .nav-container {
-  background: #333;
+  background:#222;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.nav {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 .nav ul {
@@ -15,8 +30,12 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 50px;
+  height: 100%;
 }
 
+.nav li {
+  height: 100%;
+}
 
 .nav a {
   text-decoration: none;
@@ -26,5 +45,32 @@ body {
 }
 
 .nav a:hover {
-  background-color: #555;
+  color: coral;
 }
+
+.landing {
+  padding-top: 140px;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.task {
+  font-size: 3em;
+}
+
+button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+
+.d-button{
+  color: coral; 
+}
+
+.d-button:hover {
+  color: crimson;
+}
+

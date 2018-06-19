@@ -7,8 +7,8 @@ export default class Task extends PureComponent {
 
     render() {
         return (
-            <ul>
-                {this.props.item}<button onClick={this.onClickHandler}>Delete</button>
+            <ul className='task'>
+                {this.props.item}<button onClick={this.onClickHandler} className='d-button'>Delete</button>
             </ul>
         )
     }
